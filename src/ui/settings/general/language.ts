@@ -13,5 +13,6 @@ export const language = {
   generalAimbotPlayers: 'Activate Aimbot',
   generalViewType: 'Main',
   generalViewTypeMap: 'Show Map',
-  generalViewTypeRadar: 'Show Radar'
+  generalViewTypeRadar: 'Show Radar',
+  generalViewTypeAimbot: 'Show Aimbot'
 };

@@ -19,9 +19,13 @@ export const MainView = ui.createView<{vm: app.MainViewModel}>(({vm}) => (
       <ui.material.MenuItem value={app.MainType.Radar}>
         {app.language.generalViewTypeRadar}
       </ui.material.MenuItem>
+      <ui.material.MenuItem value={app.MainType.Aimbot}>
+        {app.language.generalViewTypeAimbot}
+      </ui.material.MenuItem>
     </ui.material.Select>
     <app.MapView vm={vm.map} />
     <app.RadarView vm={vm.radar} />
     <app.SenseView vm={vm.sense} />
+    <app.AimbotView vm={vm.aimbot} />
   </React.Fragment>
 ));

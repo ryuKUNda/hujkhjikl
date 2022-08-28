@@ -1,4 +1,5 @@
 export enum MainType {
   Map = 'map',
-  Radar = 'radar'
+  Radar = 'radar',
+  Aimbot = 'aimbot'
 }
